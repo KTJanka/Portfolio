@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: lightgreen;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	background-image: -webkit-linear-gradient(#669999,#000000);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:9999;
+}
+
+nav ul li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+	text-decoration: none;
+}
+
+/* li a:hover:not(.active) {
+  background-color: #111;
+} */
+
+a:visited {
+	background-color: gray;
+}
+
+a:hover {
+  background-color: #000000;
+}
+
+section {
+	font-family: 'Cinzel Decorative', cursive;
+	background: url(https://c1.staticflickr.com/4/3535/3711433740_7a71f5594e_b.jpg)  no-repeat center center fixed;
+	background-size: cover;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 28em;
+	width: auto;
+	font-size: 2em;
+	text-align: center;
+}
+
+section h1 {
+	font-style: Cinzel Decorative;
+	margin: 2em;
+	color: #FFFFFF;
+	text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+
+article {
+	background: url(https://cdn12.picryl.com/photo/2016/12/31/rock-pattern-structure-backgrounds-textures-7807b7-1024.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	
+
+}
+
+aside {
+	background: white;
+	padding: 5%;
+	margin: 10%;
+	margin-top: 0;
+
+}
+
+aside h2 {
+	font-family: 'Alice', serif;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+	margin-top: 6%;
+	margin-bottom: 2%;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+aside ul {
+	margin: 5%;
+}
+
+hr {
+	
+	border-top: .5px solid #ccc;
+	border-color: black;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+.bliz {
+	display: block;
+  margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
