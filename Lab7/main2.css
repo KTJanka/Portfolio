@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Gabriela', serif;
+}
+body {
+    background: url(bg1.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 5%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+    
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+nav li {
+    float: left;
+  }
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav li a:hover {
+    background-color: #111;
+  }
+section {
+    margin: 0 auto;
+    width: 60%;
+    background: white;
+    padding: 8%;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 2%;
+    width: 20%;
+	min-width: 40%;
+    min-height: auto;
+    max-height: 300px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border-image: url(border.png) 30 stretch;
+}
+.banner {
+    width: 100%;
+    border-radius: 0;
+    background-position: cover;
+    height: 600px;
+    background: #111;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    word-break: keep-all;
+    
+}
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    padding-right: 3%;
+    padding-left: 3%;
+    border: 1px solid #333333;
+}
+

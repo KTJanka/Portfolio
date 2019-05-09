@@ -37,7 +37,7 @@ nav{
 	color: #000;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 25px;
 	letter-spacing: 0;
 	text-decoration: none;
 }
@@ -69,9 +69,18 @@ nav ul li a{
 	font-weight: 600;
 	text-transform: uppercase;
 }
+.short-text {
+	 display: none; 
+	}
 @media screen and (max-width: 800px){
 	.logo {
-		padding:0;
+		padding:0;	
+	}
+	.short-text { 
+		display: inline-block; 
+	}
+  .full-text { 
+		display: none; 
 	}
 	.nav-wrapper{
 		position: fixed;
@@ -189,6 +198,11 @@ nav ul li a{
 	#nav:checked + .nav-btn i{
 		background-color: #000;
 	}
+	.about {
+		padding: %;
+		margin-top: 10%;
+		margin-bottom: 10%; 
+	}
 }
 header {
   padding-top: 8%;
@@ -207,10 +221,11 @@ header {
 
 section {
 	background: white;
-	margin-top: 30%;
+	margin-top: 15%;
+	margin-bottom: 10%;
 	height: auto;
 	margin-left: 20%;
-	margin-right: 15%;
+	margin-right: 20%;
 	padding-left: 5%;
 }
 
@@ -227,9 +242,10 @@ footer {
 
 #projectPics {
 	display: block;
+	margin-top: 5%;
   margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	width: 40%;
 	min-width: 40%;
 	min-height: auto;
@@ -237,5 +253,12 @@ footer {
 }
 
 p {
-	padding: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+}
+
+.about {
+	padding: 8%;
+	margin-top: 10%;
+	margin-bottom: 10%; 
 }
