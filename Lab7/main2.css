@@ -99,3 +99,13 @@ footer {
     border: 1px solid #333333;
 }
 
+  a:link {
+    color: #000;
+  }
+  a:hover {
+    background-color: #fff;
+  }
+
+  a:visited {
+    color:#000;
+  }
